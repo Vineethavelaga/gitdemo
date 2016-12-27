@@ -1,5 +1,11 @@
+git init
 git add .
 git commit -m "hello"
+<<<<<<< HEAD
 git push
 git merge
 git fetch
+=======
+git remote add origin <repo>
+git push origin master
+>>>>>>> program/master
